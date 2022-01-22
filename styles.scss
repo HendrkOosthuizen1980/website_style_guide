@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  box-sizing: border-box;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  .colors,
+  .fonts {
+    border: 1px solid;
+    height: 25rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+
+    h2 {
+      margin: 2.5rem 1rem;
+    }
+    .color_boxes,
+    .fonts_boxes {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .color_box_blue {
+      background-color: #2d5dcc;
+      color: #fff;
+      width: 20rem;
+      height: 8rem;
+      text-align: center;
+      margin-left: 1rem;
+    }
+    .color_box_pink {
+      background-color: #d957d9;
+      color: #000;
+      width: 20rem;
+      height: 8rem;
+      text-align: center;
+      margin-left: 1rem;
+    }
+    .color_box_green {
+      background-color: #4fe0b0;
+      color: #000;
+      width: 20rem;
+      height: 8rem;
+      text-align: center;
+      margin-left: 1rem;
+    }
+    .color_box_beige {
+      background-color: #efd9ca;
+      color: #000;
+      width: 20rem;
+      height: 8rem;
+      text-align: center;
+      margin-top: 2rem;
+      margin-left: 1rem;
+    }
+    .font_box_sourcecode {
+      color: #000;
+      width: 30rem;
+      height: 8rem;
+      margin-top: 0;
+      margin-left: 1rem;
+    }
+  }
+  header {
+    margin-bottom: 2.5rem;
+  }
+  .fonts h3 {
+    text-decoration: underline;
+    font-family: 'Source Code Pro', monospace;
+  }
+  .font_regular {
+    font-family: 'Source Code Pro', monospace;
+  }
+  .font_bold {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+  }
+  .font_italic {
+    font-family: 'Source Code Pro', monospace;
+    font-style: italic;
+  }
+}
