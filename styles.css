@@ -1,29 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
 body {
   box-sizing: border-box;
   margin-left: 10rem;
   margin-right: 10rem;
 }
-body .colors,
-body .fonts {
+body header {
+  margin-bottom: 2.5rem;
+}
+body h2 {
+  margin: 2.5rem 1rem;
+}
+body .colors {
   border: 1px solid;
   height: 25rem;
   margin-top: 1rem;
   padding-bottom: 1rem;
 }
-body .colors h2,
-body .fonts h2 {
-  margin: 2.5rem 1rem;
-}
-body .colors .color_boxes,
-body .colors .fonts_boxes,
-body .fonts .color_boxes,
-body .fonts .fonts_boxes {
+body .colors .color_boxes {
   display: flex;
   flex-wrap: wrap;
 }
-body .colors .color_box_blue,
-body .fonts .color_box_blue {
+body .colors .color_box_blue {
   background-color: #2d5dcc;
   color: #fff;
   width: 20rem;
@@ -31,8 +30,7 @@ body .fonts .color_box_blue {
   text-align: center;
   margin-left: 1rem;
 }
-body .colors .color_box_pink,
-body .fonts .color_box_pink {
+body .colors .color_box_pink {
   background-color: #d957d9;
   color: #000;
   width: 20rem;
@@ -40,8 +38,7 @@ body .fonts .color_box_pink {
   text-align: center;
   margin-left: 1rem;
 }
-body .colors .color_box_green,
-body .fonts .color_box_green {
+body .colors .color_box_green {
   background-color: #4fe0b0;
   color: #000;
   width: 20rem;
@@ -49,8 +46,7 @@ body .fonts .color_box_green {
   text-align: center;
   margin-left: 1rem;
 }
-body .colors .color_box_beige,
-body .fonts .color_box_beige {
+body .colors .color_box_beige {
   background-color: #efd9ca;
   color: #000;
   width: 20rem;
@@ -59,7 +55,16 @@ body .fonts .color_box_beige {
   margin-top: 2rem;
   margin-left: 1rem;
 }
-body .colors .font_box_sourcecode,
+body .fonts {
+  border: 1px solid;
+  height: 28rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+body .fonts .fonts_boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
 body .fonts .font_box_sourcecode {
   color: #000;
   width: 30rem;
@@ -67,23 +72,70 @@ body .fonts .font_box_sourcecode {
   margin-top: 0;
   margin-left: 1rem;
 }
-body header {
-  margin-bottom: 2.5rem;
-}
-body .fonts h3 {
+body .fonts .font_box_sourcecode h3 {
   text-decoration: underline;
   font-family: "Source Code Pro", monospace;
 }
-body .font_regular {
+body .fonts .font_sourcecode_regular {
   font-family: "Source Code Pro", monospace;
 }
-body .font_bold {
+body .fonts .font_sourcecode_bold {
   font-family: "Source Code Pro", monospace;
   font-weight: bold;
 }
-body .font_italic {
+body .fonts .font_sourcecode_italic {
   font-family: "Source Code Pro", monospace;
   font-style: italic;
+}
+body .fonts .font_box_nunito h3 {
+  text-decoration: underline;
+  font-family: "Nunito Sans", sans-serif;
+}
+body .fonts .font_nunito_regular {
+  font-family: "Nunito Sans", sans-serif;
+}
+body .fonts .font_nunito_bold {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+}
+body .fonts .font_nunito_italic {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: italic;
+}
+body .fonts .font_box_poppins h3 {
+  text-decoration: underline;
+  font-family: "Poppins", sans-serif;
+  margin-left: 1rem;
+}
+body .fonts .font_poppins_regular {
+  font-family: "Poppins", sans-serif;
+  margin-left: 1rem;
+}
+body .fonts .font_poppins_bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+body .fonts .font_poppins_italic {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  margin-left: 1rem;
+}
+body .text_styles p {
+  margin-left: 1rem;
+}
+body .text_styles {
+  border: 1px solid;
+  height: 35rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+body .text_styles .text_styles h2,
+body .text_styles h1 {
+  margin-left: 1rem;
+}
+body .text_styles ul {
+  line-height: 1.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
