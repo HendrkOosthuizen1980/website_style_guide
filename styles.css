@@ -9,6 +9,9 @@ body {
 body header {
   margin-bottom: 2.5rem;
 }
+body h1 {
+  color: blue;
+}
 body h2 {
   margin: 2.5rem 1rem;
 }
